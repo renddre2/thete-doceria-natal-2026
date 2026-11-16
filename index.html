@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#681e28" />
+    <meta name="description" content="Cardápio especial de Natal 2026 da Thetê Doceria. Conheça as sobremesas, confira pesos e valores e monte sua lista de encomenda." />
+    <title>Natal 2026 | Thetê Doceria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="cardapio.js" defer></script>
+  </head>
+  <body>
+    <div class="announcement"><span aria-hidden="true">✦</span> Coleção especial de Natal 2026 <span aria-hidden="true">✦</span></div>
+    <header class="site-header">
+      <div class="container header-content">
+        <a class="brand" href="#inicio" aria-label="Thetê Doceria, voltar ao início"><span class="brand-name">Thetê<span class="brand-dot">.</span></span><span class="brand-type">DOCERIA</span></a>
+        <nav class="desktop-nav" aria-label="Navegação principal"><a href="#colecao">O cardápio</a><a href="#encomendas">Como encomendar</a><a href="https://www.instagram.com/thete_doceria/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></nav>
+        <button class="header-cart" type="button" data-open-cart aria-label="Abrir minha seleção"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l1 13H5L6 8ZM9 9V6a3 3 0 0 1 6 0v3" /></svg><span>Minha seleção</span><b class="cart-counter" data-cart-count>0</b></button>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-pattern" aria-hidden="true"></div>
+        <div class="container hero-layout">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="eyebrow-line"></span> EDIÇÃO ESPECIAL · 2026</div>
+            <div class="hero-star" aria-hidden="true">✳</div>
+            <h1 id="hero-title">O sabor de estar <em>junto</em> neste Natal.</h1>
+            <p>Um cardápio feito para adoçar os encontros, celebrar as tradições e deixar a sua mesa ainda mais especial.</p>
+            <a href="#colecao" class="button button-light">Conheça o cardápio <span aria-hidden="true">↗</span></a>
+            <div class="hero-small-note"><span aria-hidden="true">✧</span> 10 delícias para compartilhar</div>
+          </div>
+          <div class="hero-art" aria-label="Fotografias de doces da coleção">
+            <div class="hero-photo-wrap"><img src="fotos/brigadeiro-cereja.jpg" alt="Sobremesa de chocolate com cerejas da Thetê Doceria" fetchpriority="high" /></div>
+            <div class="hero-stamp" aria-hidden="true"><span>FELIZ</span><strong>Natal</strong><span>✦ 2026 ✦</span></div>
+            <img class="hero-accent-photo" src="fotos/brownie-arvore.jpg" alt="" aria-hidden="true" />
+            <span class="hero-corner-sparkle" aria-hidden="true">✦</span>
+          </div>
+        </div>
+        <div class="hero-bottom-rule" aria-hidden="true"><span>✶</span><span>✶</span><span>✶</span></div>
+      </section>
+
+      <section class="intro-band" aria-label="Mensagem de Natal"><div class="container"><span>✦</span><p>Porque os melhores momentos merecem uma doce lembrança.</p><span>✦</span></div></section>
+
+      <section class="catalog-section" id="colecao" aria-labelledby="catalog-title">
+        <div class="container">
+          <div class="section-heading"><span class="section-kicker">DE NOSSA COZINHA PARA A SUA MESA</span><h2 id="catalog-title">Nossa coleção <em>de Natal</em></h2><p>Escolha seus favoritos e selecione o tamanho ideal para a sua celebração.</p><div class="heading-divider" aria-hidden="true">✦</div></div>
+          <div class="catalog-toolbar"><div class="filters" role="group" aria-label="Filtrar produtos"><button class="filter active" type="button" data-filter="todos" aria-pressed="true">Todos <span>10</span></button><button class="filter" type="button" data-filter="sobremesas" aria-pressed="false">Bolos & sobremesas</button><button class="filter" type="button" data-filter="brownies" aria-pressed="false">Brownies</button><button class="filter" type="button" data-filter="tortas" aria-pressed="false">Tortas</button></div><span class="catalog-caption">Feitos para celebrar ✳</span></div>
+          <div id="product-grid" class="product-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="message-banner" aria-label="Mensagem especial"><div class="container message-banner-content"><span class="banner-decoration" aria-hidden="true">✧</span><div><span class="banner-kicker">NATAL É TEMPO DE CELEBRAR</span><h2>Doces que viram <em>memórias.</em></h2></div><span class="banner-decoration" aria-hidden="true">✧</span></div></section>
+
+      <section class="order-section" id="encomendas" aria-labelledby="order-title"><div class="container order-layout"><div class="order-title-area"><span class="section-kicker">SUA CELEBRAÇÃO, NOSSO CARINHO</span><h2 id="order-title">Como montar sua <em>encomenda?</em></h2><p>Você pode organizar sua lista de doces aqui e conversar diretamente com a doceria para confirmar os detalhes.</p><button class="button button-red" type="button" data-open-cart>Ver minha seleção <span aria-hidden="true">↗</span></button></div><div class="order-steps"><div class="order-step"><span>01</span><div><h3>Escolha os doces</h3><p>Explore o cardápio e encontre os sabores que combinam com sua ceia.</p></div></div><div class="order-step"><span>02</span><div><h3>Selecione o tamanho</h3><p>Escolha o peso e adicione cada item à sua seleção.</p></div></div><div class="order-step"><span>03</span><div><h3>Consulte a encomenda</h3><p>Abra o WhatsApp da doceria com sua lista pronta para confirmar disponibilidade e condições.</p></div></div></div></div></section>
+    </main>
+
+    <footer class="footer"><div class="container footer-content"><div><div class="footer-brand">Thetê<span>.</span></div><div class="footer-subtitle">DOCERIA</div><p>Um Natal mais doce começa aqui.</p></div><div class="footer-side"><a href="https://www.instagram.com/thete_doceria/" target="_blank" rel="noopener noreferrer">@thete_doceria ↗</a><span>Cardápio especial · Natal 2026</span><small>Valores e disponibilidade sujeitos à confirmação com a doceria.</small></div></div><div class="container footer-bottom"><span>Feito para celebrar os bons momentos.</span><span aria-hidden="true">✦ BOAS FESTAS ✦</span></div></footer>
+
+    <button class="mobile-cart-bar" type="button" data-open-cart hidden><span><b data-cart-count>0</b> <span data-mobile-label>itens selecionados</span></span><strong>Ver minha seleção →</strong></button>
+    <div class="cart-overlay" id="cart-overlay" hidden></div>
+    <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" aria-hidden="true" tabindex="-1">
+      <div class="cart-head"><div><span class="section-kicker">SUA MESA DE NATAL</span><h2 id="cart-title">Minha seleção <span aria-hidden="true">✦</span></h2></div><button class="cart-close" type="button" id="close-cart" aria-label="Fechar seleção">×</button></div>
+      <div class="cart-list" id="cart-list"></div>
+      <div class="cart-foot"><div class="cart-subtotal"><span>Total estimado</span><strong id="cart-total">R$ 0,00</strong></div><p>A mensagem será preparada no WhatsApp da doceria para você conferir antes de enviar. Disponibilidade, entrega ou retirada são confirmadas com a doceria.</p><a class="button button-red cart-copy" id="send-order" target="_blank" rel="noopener noreferrer" aria-disabled="true" tabindex="-1">Consultar no WhatsApp <span aria-hidden="true">↗</span></a><button class="clear-cart" type="button" id="copy-order">Copiar lista</button><button class="clear-cart" type="button" id="clear-cart">Limpar seleção</button></div>
+    </aside>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
