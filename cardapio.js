@@ -50,6 +50,31 @@ const produtos = [
     id: 'brownie-morangos', nome: 'Brownie, brigadeiro e morangos', categoria: 'brownies',
     descricao: 'Brownie, brigadeiro e morangos.',
     foto: 'fotos/brownie-morangos.jpg', tamanhos: [{ peso: '1,2 kg', preco: 168 }, { peso: '1,5 kg', preco: 210 }, { peso: '2,2 kg', preco: 308 }]
+  },
+  {
+    id: 'panetone-tradicional', nome: 'Panetone brigadeiro tradicional', categoria: 'panetones',
+    descricao: 'Brigadeiro tradicional.',
+    foto: 'fotos/panetone-tradicional.jpg', tamanhos: [{ peso: '850 g', preco: 145 }, { peso: '190 g', preco: 45 }]
+  },
+  {
+    id: 'panetone-nutella', nome: 'Panetone brigadeiro com crocante de Nutella', categoria: 'panetones',
+    descricao: 'Brigadeiro com crocante de Nutella.',
+    foto: 'fotos/panetone-nutella.jpg', tamanhos: [{ peso: '850 g', preco: 165 }, { peso: '190 g', preco: 52 }]
+  },
+  {
+    id: 'panetone-cereja', nome: 'Panetone brigadeiro com cereja marasquina', categoria: 'panetones',
+    descricao: 'Brigadeiro com cereja marasquina.',
+    foto: 'fotos/panetone-cereja.jpg', tamanhos: [{ peso: '850 g', preco: 165 }, { peso: '190 g', preco: 52 }]
+  },
+  {
+    id: 'panetone-ninho', nome: 'Panetone brigadeiro com mousse de Ninho', categoria: 'panetones',
+    descricao: 'Brigadeiro com mousse de Ninho.',
+    foto: 'fotos/panetone-ninho.jpg', tamanhos: [{ peso: '750 g', preco: 160 }, { peso: '170 g', preco: 50 }]
+  },
+  {
+    id: 'panetone-baunilha', nome: 'Panetone brigadeiro de fava de baunilha com caramelo salgado', categoria: 'panetones',
+    descricao: 'Brigadeiro de fava de baunilha com caramelo salgado.',
+    foto: 'fotos/panetone-baunilha.jpg', tamanhos: [{ peso: '850 g', preco: 165 }, { peso: '190 g', preco: 52 }]
   }
 ];
 
